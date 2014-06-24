@@ -1,4 +1,4 @@
-PMS	<br/>[![Build Status](https://travis-ci.org/solarisy/PGO.png)](https://travis-ci.org/solarisy)
+PGO	<br/>[![Build Status](https://travis-ci.org/solarisy/PGO.png)](https://travis-ci.org/solarisy)
 ==============================================================================
 
 - ----项目管理系统（Project Management System） 
