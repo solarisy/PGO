@@ -484,6 +484,8 @@
 						<excludes>
 							<exclude>**/entity/**/*.class</exclude>
 							<exclude>**/*Controller.class</exclude>
+							<exclude>**/comm/**/*.class</exclude>
+							<exclude>**/utils/**/*.class</exclude>
 						</excludes>
 					</instrumentation>
                 </configuration>
