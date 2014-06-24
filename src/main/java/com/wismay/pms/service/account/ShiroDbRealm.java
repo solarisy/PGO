@@ -33,9 +33,9 @@ import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.util.ByteSource;
-import com.wismay.pms.entity.User;
-import org.springside.modules.utils.Encodes;
 
+import com.wismay.pms.entity.User;
+import com.wismay.pms.utils.Encodes;
 import com.google.common.base.Objects;
 
 public class ShiroDbRealm extends AuthorizingRealm {

@@ -9,14 +9,14 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
-import org.springside.modules.security.utils.Digests;
-import org.springside.modules.utils.Encodes;
 
 import com.wismay.pms.comm.DateProvider;
 import com.wismay.pms.entity.User;
 import com.wismay.pms.repository.UserDao;
 import com.wismay.pms.service.ServiceException;
 import com.wismay.pms.service.account.ShiroDbRealm.ShiroUser;
+import com.wismay.pms.utils.Digests;
+import com.wismay.pms.utils.Encodes;
 
 /**
  * 用户管理类.

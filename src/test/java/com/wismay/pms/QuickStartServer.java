@@ -1,8 +1,9 @@
 package com.wismay.pms;
 
 import org.eclipse.jetty.server.Server;
-import org.springside.modules.test.jetty.JettyFactory;
-import org.springside.modules.test.spring.Profiles;
+
+import com.wismay.pms.jetty.JettyFactory;
+import com.wismay.pms.spring.Profiles;
 
 /**
  * 使用Jetty运行调试Web应用, 在Console输入回车快速重新加载应用.
