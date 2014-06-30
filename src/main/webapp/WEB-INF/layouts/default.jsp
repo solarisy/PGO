@@ -65,7 +65,7 @@ Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-templa
 
 	<link href="${ctx}/static/metronic/css/style-responsive.css" rel="stylesheet" type="text/css"/>
 
-	<link href="${ctx}/static/metronic/css/default.css" rel="stylesheet" type="text/css" id="style_color"/>
+	<link href="${ctx}/static/metronic/css/themes/default.css" rel="stylesheet" type="text/css" id="style_color"/>
 
 	<link href="${ctx}/static/metronic/css/uniform.default.css" rel="stylesheet" type="text/css"/>
 
@@ -177,7 +177,7 @@ Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-templa
 
 		jQuery(document).ready(function() {    
 
-		   App.init(); // initlayout and core plugins
+		   App.init("${ctx}"); // initlayout and core plugins
 
 		   Index.init();
 
@@ -200,9 +200,6 @@ Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-templa
 	</script>
 
 	<!-- END JAVASCRIPTS -->
-
-<script type="text/javascript">  var _gaq = _gaq || [];  _gaq.push(['_setAccount', 'UA-37564768-1']);  _gaq.push(['_setDomainName', 'keenthemes.com']);  _gaq.push(['_setAllowLinker', true]);  _gaq.push(['_trackPageview']);  (function() {    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);  })();</script>
-
 
 </body>
 </html>

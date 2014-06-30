@@ -2,7 +2,7 @@
 Core script to handle the entire layout and base functions
 **/
 var App = function () {
-
+	
     // IE mode
     var isRTL = false;
     var isIE8 = false;
@@ -659,7 +659,7 @@ var App = function () {
 
         // handle theme colors
         var setColor = function (color) {
-            $('#style_color').attr("href", "assets/css/themes/" + color + ".css");
+            $('#style_color').attr("href", ctx+"/static/metronic/css/themes/" + color + ".css");
             $.cookie('style_color', color);                
         }
 
@@ -709,13 +709,22 @@ var App = function () {
             });
         }
     }
+    
+    //app content path
+	var ctx = "";
+    
+    var initCtx = function(cpath){
+    	ctx=cpath;
+    }
 
     //* END:CORE HANDLERS *//
 
     return {
 
         //main function to initiate template pages
-        init: function () {
+        init: function (cpath) {
+        	
+        	initCtx(cpath);
 
             //IMPORTANT!!!: Do not modify the core handlers call order.
 
